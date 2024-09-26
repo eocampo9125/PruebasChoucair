@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.targets.Target;
 public class AddCandidatesPage {
 
 
-    public static final Target Add_candidate = Target.the("Agregar candidato").locatedBy("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button");
+    public static final Target Add_candidate = Target.the("Agregar candidato").locatedBy("//a[@class='oxd-main-menu-item'])[5]");
     public static final Target first_name = Target.the("Agregar primer Nombre").locatedBy("name:firstName");
     public static final Target last_Name = Target.the("Agregar Apellidos").locatedBy("name:lastNamee");
     public static final Target Input_vacante = Target.the("Agregar Vacante").locatedBy("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div/div/div[2]/div/div/div[1]");

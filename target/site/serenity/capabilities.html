@@ -179,7 +179,7 @@
         <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
         <div id="projectname-banner" style="float:right">
             <span class="projectname">
-                <span class="projecttitle"></span>
+                <span class="projecttitle">Screenplay Practice</span>
                 <span class="projectsubtitle"></span>
             </span>
         </div>
@@ -263,10 +263,10 @@
                                             </div>
                                             <script>
 
-                                                var labels = ['33%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '67%', ' ', ' ', ' '];
+                                                var labels = [' ', ' ', '33%', ' ', ' ', ' ', ' ', ' ', '33%', ' ', '33%', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 2}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 1}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -303,19 +303,19 @@
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
-                                                                    </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">33%</td>
-                                            </tr>
-                                            <tr>
                                                                     <td class="aggregate-result-count"><i
-                                                                            class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
                                                 <td class="automated-stats">0</td>
                                                 <td class="automated-stats"> </td>
+                                            </tr>
+                                            <tr>
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html"><i
+                                                                                class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending</a>
+                                                                    </td>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">33%</td>
                                             </tr>
                                             <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -339,19 +339,19 @@
                                             </tr>
 
                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
-                                                                </td>
-                                                <td class="automated-stats">0</td>
-                                                <td class="automated-stats"> </td>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html"><i
+                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
+                                                                    </td>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">33%</td>
                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
                                                                         <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html"><i
                                                                                 class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
                                                                     </td>
-                                                <td class="automated-stats">2</td>
-                                                <td class="automated-stats">67%</td>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">33%</td>
                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -384,11 +384,11 @@
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>21s</td>
-                                                        <td> 29m 50s</td>
+                                                        <td> 1m 20s</td>
+                                                        <td>5d  22h  42m 22s</td>
                                                         <td>1s</td>
-                                                        <td>13s</td>
-                                                        <td>7s</td>
+                                                        <td> 1m 9s</td>
+                                                        <td>26s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -412,6 +412,21 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
+                                                <tr class="scenario-result PENDING">
+                                                    <td>
+                                                            <a href="3ff6d1891e8d939df80cb9b0b5e6111d2afd4fccdf3b2a7cbe8e394f5163036c.html">Ejemplo Login Automatizado</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="58075f61dfd59992ee9d1fdf5d812494e37d0b46fb1e22d525cb757820e6c285.html">Crear un nuevo empleado</a>
+                                                    </td>
+                                                    <td>11</td>
+                                                    <td>14:06:18</td>
+                                                    <td>9s 216ms</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a> <span
+                                                                style="display:none">PENDING</span>
+                                                    </td>
+                                                </tr>
                                                 <tr class="scenario-result ERROR">
                                                     <td>
                                                             <a href="3ff6d1891e8d939df80cb9b0b5e6111d2afd4fccdf3b2a7cbe8e394f5163036c.html">Ejemplo Login Automatizado</a>
@@ -427,34 +442,19 @@
                                                                 style="display:none">ERROR</span>
                                                     </td>
                                                 </tr>
-                                                <tr class="scenario-result SUCCESS">
+                                                <tr class="scenario-result FAILURE">
                                                     <td>
                                                             <a href="3ff6d1891e8d939df80cb9b0b5e6111d2afd4fccdf3b2a7cbe8e394f5163036c.html">Ejemplo Login Automatizado</a>
                                                     </td>
                                                     <td>
                                                             <a href="785fc1530453c7f3cb7441769fdd8eac58fd4bf1e0893f038d4fbbb0a01118cf.html">Iniciar Sesión</a>
                                                     </td>
-                                                    <td>3</td>
-                                                    <td>16:56:26</td>
-                                                    <td>13s 360ms</td>
+                                                    <td>2</td>
+                                                    <td>15:09:13</td>
+                                                    <td>1m 10s</td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                style="display:none">SUCCESS</span>
-                                                    </td>
-                                                </tr>
-                                                <tr class="scenario-result ERROR">
-                                                    <td>
-                                                            <a href="3ff6d1891e8d939df80cb9b0b5e6111d2afd4fccdf3b2a7cbe8e394f5163036c.html">Ejemplo Login Automatizado</a>
-                                                    </td>
-                                                    <td>
-                                                            <a href="58075f61dfd59992ee9d1fdf5d812494e37d0b46fb1e22d525cb757820e6c285.html">Crear un nuevo empleado</a>
-                                                    </td>
-                                                    <td>8</td>
-                                                    <td>16:56:41</td>
-                                                    <td>6s 735ms</td>
-                                                    <td>
-                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                style="display:none">ERROR</span>
+                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                style="display:none">FAILURE</span>
                                                     </td>
                                                 </tr>
                                                 </tbody>

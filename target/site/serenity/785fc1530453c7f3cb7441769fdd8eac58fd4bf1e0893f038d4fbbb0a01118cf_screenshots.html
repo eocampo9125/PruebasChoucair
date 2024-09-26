@@ -151,7 +151,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-09-2024 16:56</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-09-2024 15:09</span>
     <br style="clear:left"/>
 </div>
 
@@ -188,9 +188,9 @@ Para tener un ejemplo de una automatización web
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Iniciar Sesi&oacute;n
+                                <span class="failing-color">Iniciar Sesi&oacute;n
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -207,25 +207,67 @@ Para tener un ejemplo de una automatización web
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.choucair.taks.Login.performAs(Login.java:49)<br />com.choucair.steps.LoginStep.iniciaSesiónConLosDatosY(LoginStep.java:35)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.cssSelector: (/html/body/div/div[1]/div[2]/div[2]/div/div[2]/div[1]/button to be enabled (tried for 60 second(s) with 100 milliseconds interval)</pre>
+                        <pre>com.choucair.taks.Login.performAs(Login.java :49)<br />com.choucair.steps.LoginStep.iniciaSesiónConLosDatosY(LoginStep.java :35)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource2495001663710729487.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="9e4bba62ce03eeef3b35ea7910a28e88d930360f85bcc383ffc6a3a276bba33d.png" title=" Given &quot;Juan&quot; desea ir a la p&aacute;gina inicial" width="1366"/>
-                <img src="9e4bba62ce03eeef3b35ea7910a28e88d930360f85bcc383ffc6a3a276bba33d.png" title=" Juan opens the https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" width="1366"/>
-                <img src="6b695ce76f57631eab8c6226ebe33145cdeb98f12f1b6be37d124d6aceee82fc.png" title=" Given &quot;Juan&quot; desea ir a la p&aacute;gina inicial (completed)" width="1366"/>
-                <img src="6baef7da65f8917b598551edd096d685f77428e508e647394222ba766e1d44e5.png" title=" When inicia sesi&oacute;n con los datos &quot;Admin&quot; y &quot;admin123&quot;" width="1366"/>
-                <img src="6baef7da65f8917b598551edd096d685f77428e508e647394222ba766e1d44e5.png" title=" Juan login" width="1366"/>
-                <img src="6baef7da65f8917b598551edd096d685f77428e508e647394222ba766e1d44e5.png" title=" Juan enters 'Admin' into nombre de usuario" width="1366"/>
-                <img src="4201ecf43834f2e22146271abc63909f3b1dda3f6109f360593b176c640e0c25.png" title=" Juan enters 'Admin' into nombre de usuario (completed)" width="1366"/>
-                <img src="4201ecf43834f2e22146271abc63909f3b1dda3f6109f360593b176c640e0c25.png" title=" Juan enters 'admin123' into la contrase&ntilde;a" width="1366"/>
-                <img src="39118acd6d24cc662bd0e2e93dae3407cb5ca78fbbf71297aaedf3885b410ff5.png" title=" Juan enters 'admin123' into la contrase&ntilde;a (completed)" width="1366"/>
-                <img src="39118acd6d24cc662bd0e2e93dae3407cb5ca78fbbf71297aaedf3885b410ff5.png" title=" Juan clicks on el boton de inicio" width="1366"/>
-                <img src="9e4bba62ce03eeef3b35ea7910a28e88d930360f85bcc383ffc6a3a276bba33d.png" title=" Juan clicks on el boton de inicio (completed)" width="1366"/>
-                <img src="9e4bba62ce03eeef3b35ea7910a28e88d930360f85bcc383ffc6a3a276bba33d.png" title=" Juan login (completed)" width="1366"/>
-                <img src="9e4bba62ce03eeef3b35ea7910a28e88d930360f85bcc383ffc6a3a276bba33d.png" title=" When inicia sesi&oacute;n con los datos &quot;Admin&quot; y &quot;admin123&quot; (completed)" width="1366"/>
-                <img src="b47df240334213dd3d7e60c7486346e8c3716bcec0721d01e41b62bc3fedc327.png" title=" Then valida que el mensaje inicial sea &quot;Time at Work&quot;" width="1366"/>
-                <img src="b47df240334213dd3d7e60c7486346e8c3716bcec0721d01e41b62bc3fedc327.png" title=" Then text of should be 'Time at Work'" width="1366"/>
-                <img src="654ed80f5759451a65f337593864960c5b7e6af26079827b3da83005f33ce395.png" title=" Then text of should be 'Time at Work' (completed)" width="1366"/>
-                <img src="654ed80f5759451a65f337593864960c5b7e6af26079827b3da83005f33ce395.png" title=" Then valida que el mensaje inicial sea &quot;Time at Work&quot; (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="7d09ffbe062ea26887ae300a495dc2d2247834417aec5b07b48344f5ed54db6d.png" title=" Given &quot;Juan&quot; desea ir a la p&aacute;gina inicial" width="1920"/>
+                <img src="7d09ffbe062ea26887ae300a495dc2d2247834417aec5b07b48344f5ed54db6d.png" title=" Juan opens the https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" width="1920"/>
+                <img src="7d09ffbe062ea26887ae300a495dc2d2247834417aec5b07b48344f5ed54db6d.png" title=" Given &quot;Juan&quot; desea ir a la p&aacute;gina inicial (completed)" width="1920"/>
+                <img src="7d09ffbe062ea26887ae300a495dc2d2247834417aec5b07b48344f5ed54db6d.png" title=" When inicia sesi&oacute;n con los datos &quot;Admin&quot; y &quot;admin123&quot;" width="1920"/>
+                <img src="7d09ffbe062ea26887ae300a495dc2d2247834417aec5b07b48344f5ed54db6d.png" title=" Juan login" width="1920"/>
+                <img src="dbf2899206ff534807f4adc77df535d88a239f945616acbacc8039e7186a030a.png" title=" Juan enters 'Admin' into nombre de usuario" width="1920"/>
+                <img src="dfd2200e6e19462d2cb76ab7c6bb4bf418d5a1114611a7fb266f39a2eaa07989.png" title=" Juan enters 'Admin' into nombre de usuario (completed)" width="1920"/>
+                <img src="dfd2200e6e19462d2cb76ab7c6bb4bf418d5a1114611a7fb266f39a2eaa07989.png" title=" Juan enters 'admin123' into la contrase&ntilde;a" width="1920"/>
+                <img src="abdbedd8ebc3e863f6dc03b03c7007703acb31c9bbe8e553e22a377eb052f8c9.png" title=" Juan enters 'admin123' into la contrase&ntilde;a (completed)" width="1920"/>
+                <img src="abdbedd8ebc3e863f6dc03b03c7007703acb31c9bbe8e553e22a377eb052f8c9.png" title=" Juan clicks on el boton de inicio" width="1920"/>
+                <img src="7d09ffbe062ea26887ae300a495dc2d2247834417aec5b07b48344f5ed54db6d.png" title=" Juan clicks on el boton de inicio (completed)" width="1920"/>
+                <img src="7d09ffbe062ea26887ae300a495dc2d2247834417aec5b07b48344f5ed54db6d.png" title=" Juan clicks on el boton de reclutamiento" width="1920"/>
+                <img src="4bfb1a5339df5659eef75cc3209d697a375192be172d2e977d9cf1b10eb62d6b.png" title=" Juan clicks on el boton de add: <span class='failing-color'>FAILURE</span>" width="1920"/>
             </div>
         </div>
 
